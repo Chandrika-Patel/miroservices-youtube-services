@@ -1,0 +1,13 @@
+
+
+#database configuration
+
+spring:
+    datasource:
+         url: jdbc:mysql://localhost:3306/gitrepo?createDabaseIfNotExist=true
+         username: root
+         password : root
+ 
+    jpa:
+        hibernate: 
+             ddl-auto: update    
